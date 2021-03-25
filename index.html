@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Pathfinding visualiser</title>
+</head>
+<body>
+    <div id="container">
+    <h1>Pathfinding visualiser</h1>
+    <h1>WORK IN PROGRESS</h1>
+    <button id="solve">Solve</button>
+    <button id="remove">Remove stuff</button>
+    <button id="reset">Reset</button><br>
+    <select id="size">
+        <!-- <option disabled selected>Select size</option> -->
+        <option>Small</option>
+        <option>Large</option>
+    </select>
+    <select id="algo">
+        <!-- <option disabled selected>Select algorithm</option> -->
+        <option>Dijkstra</option>
+        <option>Astar</option>
+    </select>
+    <select id="speed">
+        <!-- <option disabled selected>Select speed</option> -->
+        <option>Fast</option>
+        <option>Immediate</option>
+        
+        <option>Slow</option>
+    </select>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
